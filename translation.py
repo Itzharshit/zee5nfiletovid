@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b>Hii {} , I am zee5 downloader and i can also rename ur file and convert ur file into video with permanent thumbnail. /n send me zee5 link link and then reply /c2v with that link to download.</b> \n
+    START_TEXT = """ <b>Hii {} , I am zee5 downloader and i can also rename ur file and convert ur file into video with permanent thumbnail.Send me zee5 link link and then reply /c2v with that link to start downloading.</b> \n
 
 <b>Bot Maintained By: @AJPyroVerse </b> \n 
 """
@@ -28,6 +28,6 @@ class Translation(object):
     IFLONG_FILE_NAME = """Number of letters exceeded please reduce it"""
     ABOUT_ME = """<b>A Telegram File Renamer Bot maintaied by @harshitshrivastavbot Which Can Rename A Telegram File. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbnails everytime Time.\n \n This bot can also convert files into videos \n Feedback @AJPyroVerseGroup /n i can also download zee5 videos for you.</b>"""
     HELP_USER = """Check Available Commands Here \n\n Subscribe @AJPyroVerse for more useful bots"""
-    RENAME_HELP = """ Available Commands to Reanme \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming the file"""
+    RENAME_HELP = """Available Commands to Reanme \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming the file"""
     C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
     THUMBNAIL_HELP = """Here Are The Available Commands In Custom Thumbnail \n\n\n ▪️ Send A Photo To Set The Custom Thumbnail \n▪️ <code>/showthumb</code> : For Checking The Current Thumbnail \n▪️<code>/delthumb</code> : For Deleting The Current Saved Thumbnail"""
