@@ -1,11 +1,11 @@
 class Translation(object):
-    START_TEXT = """ <b> Hallow {} , I can rename ur file and convert ur file into video with permanent thumbnail</b> \n
+    START_TEXT = """ <b>Hii {} , I am zee5 downloader and i can also rename ur file and convert ur file into video with permanent thumbnail. /n send me zee5 link link and then reply /c2v with that link to download.</b> \n
 
 <b>Bot Maintained By: @AJPyroVerse </b> \n 
 """
 
     RENAME_403_ERR = "Ohh shit..!"
-    BANNED_USER_TEXT = "Sorry!! But My Owner As Banned You From Using me. It Means You Can't Run Me Now! \n \n Contact : @AJPyroVerseGroup For more Details.. " 
+    BANNED_USER_TEXT = "Sorry!! But My Owner have Banned You From Using me. It Means You Can't Run Me Now! \n \n Contact : @AJPyroVerseGroup For more Details.. " 
     ABS_TEXT = "What Are You thinking to do?"
     UPGRADE_TEXT = "CONTACT @AJPyroVerseGroup"
     DOWNLOAD_START = "<b>Downloading... !! Keep patience...</b>"
@@ -26,7 +26,7 @@ class Translation(object):
     NO_THUMB_FOUND = "No Thumbnail detected!!"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """Number of letters exceeded please reduce it"""
-    ABOUT_ME = """<b>Meh : \n A Telegram File Renamer Bot maintaied by @harshitshrivastavbot Which Can Rename A Telegram File. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbnails everytime Time.\n \n This bot can also convert files into videos \n Feedback @AJPyroVerseGroup </b>"""
+    ABOUT_ME = """<b>A Telegram File Renamer Bot maintaied by @harshitshrivastavbot Which Can Rename A Telegram File. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbnails everytime Time.\n \n This bot can also convert files into videos \n Feedback @AJPyroVerseGroup /n i can also download zee5 videos for you.</b>"""
     HELP_USER = """Check Available Commands Here \n\n Subscribe @AJPyroVerse for more useful bots"""
     RENAME_HELP = """ Available Commands to Reanme \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming the file"""
     C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
