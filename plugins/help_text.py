@@ -51,7 +51,7 @@ async def help_user(bot, update):
             await update.reply_text(
                 text="**You have to Join My Update Channel Before Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -138,7 +138,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Close", callback_data = "close")
                 ]
             ]
         )
