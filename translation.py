@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = "<b>Hii {} , I am File Rename Bot.i can rename your files,i can also convert your file into Video, I can also Download Zee 5 Non DRM Videos.</b> \n
+    START_TEXT = "<b>Hii {} ,I can rename & convert your file into video with zee 5 support.</b> \n
 "
 
     RENAME_403_ERR = "Something Went Wrong..!"
