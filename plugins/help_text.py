@@ -135,7 +135,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("Close", callback_data = "close")
+                    InlineKeyboardButton("Shut Down", callback_data = "close")
                 ]
             ]
         )
@@ -148,7 +148,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("Close", callback_data = "close")
+                    InlineKeyboardButton("Shut Down*, callback_data = "close")
                 ]
             ]
         )
@@ -165,7 +165,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('About', callback_data = "about")
+                    InlineKeyboardButton('Zee 5, callback_data = "about")
                 ]
             ]
         )
