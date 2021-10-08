@@ -1,7 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b>Hii {} , I am zee5 downloader and i can also rename ur file and convert ur file into video with permanent thumbnail.Send me zee5 link link and then reply /c2v with that link to start downloading.</b> \n
-
-<b>Bot Maintained By: @AJPyroVerse </b> \n 
+    START_TEXT = """ <b>Hii {} , I am File Rename Bot.i can rename your files,i can also convert your file into Video, I can also Download Zee 5 Non DRM Videos.</b> \n
 """
 
     RENAME_403_ERR = "Ohh shit..!"
@@ -11,11 +9,10 @@ class Translation(object):
     DOWNLOAD_START = "<b>Downloading... !! Keep patience...</b>"
     UPLOAD_START = "<b>Downloading Completed... Now Uploading to Telegram</b>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry are u thinking that i will upload it?"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thanks for using me please join our channel @AJPyroVerse</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
     NOT_AUTH_USER_TEXT = "CONTACT @AJPyroVerseGroup "
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Sorry... You Should Contact @AJPyroVerseGroup "
-    SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved... This Is Permanent Until</b> /delthumb"
+    SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved... To Remove Thumbnail Use </b> /delthumb"
     DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail removed!!"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media Removed."
     SAVED_RECVD_DOC_FILE = "<b>File Downloaded!!</b>"
@@ -26,8 +23,8 @@ class Translation(object):
     NO_THUMB_FOUND = "No Thumbnail detected!!"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """Number of letters exceeded please reduce it"""
-    ABOUT_ME = """<b>A Telegram File Renamer Bot maintaied by @harshitshrivastavbot Which Can Rename A Telegram File. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbnails everytime Time.\n \n This bot can also convert files into videos \n Feedback @AJPyroVerseGroup /n i can also download zee5 videos for you.</b>"""
-    HELP_USER = """Check Available Commands Here \n\n Subscribe @AJPyroVerse for more useful bots"""
-    RENAME_HELP = """Available Commands to Reanme \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming the file"""
-    C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
-    THUMBNAIL_HELP = """Here Are The Available Commands In Custom Thumbnail \n\n\n ▪️ Send A Photo To Set The Custom Thumbnail \n▪️ <code>/showthumb</code> : For Checking The Current Thumbnail \n▪️<code>/delthumb</code> : For Deleting The Current Saved Thumbnail"""
+    ABOUT_ME = """<b>Commands For Zee 5 Downloading \n \n Send A Zee 5 Non DRM Video Link and reply the link with /c2v.</b>"""
+    HELP_USER = """Check All Commands Here:"""
+    RENAME_HELP = """Commands For Rename File \n\n\n <code>/rename</code> : Reply To An File or video With <code>/rename Filename.extension</code> For Renaming the file."""
+    C2V_HELP = """ Commands For File To Video \n\n\n <code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
+    THUMBNAIL_HELP = """Commands In Custom Thumbnail \n\n\n  Send A Photo To Set The Custom Thumbnail: \n▪️ <code>/showthumb</code> : For Checking The Current Thumbnail \n<code>/delthumb</code> : For Deleting The Current Saved Thumbnail"""
