@@ -16,7 +16,7 @@ class Translation(object):
     DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail removed!!"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media Removed."
     SAVED_RECVD_DOC_FILE = "<b>File Downloaded!!</b>"
-    REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Please Reply To An File With /rename fil name extension To rename that file</b>"
+    REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Please Reply To An File With /rename file name extension to rename that file</b>"
     REPLY_TO_FILE_FOR_CONVERT = "<b> Please Reply To An File With /c2v To Convert It Into Streamable video File</b>"
     REPLY_TO_DOC_FOR_C2A = "<b> Please Reply To An File/video With /c2a To Convert It Into Audio File</b>"
     CUSTOM_CAPTION_UL_FILE = " "
