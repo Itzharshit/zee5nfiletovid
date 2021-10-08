@@ -164,7 +164,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton('File To Video', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('Custom Thumbnail', callback_data = "cthumb"),
+                    InlineKeyboardButton('Thumbnail', callback_data = "cthumb"),
                     InlineKeyboardButton('Zee 5', callback_data = "about")
                 ]
             ]
