@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = "<b>Hii {} ,I can rename & convert your file into video with zee 5 support.</b>"
+    START_TEXT = "Hii {}, I can rename & convert your file into video with zee 5 support."
 
     RENAME_403_ERR = "Something Went Wrong..!"
     BANNED_USER_TEXT = "Sorry!! But My Owner have Banned You From Using me. It Means You Can't Run Me Now! \n \n Contact : @AJPyroVerseGroup For more Details.. " 
@@ -23,7 +23,7 @@ class Translation(object):
     NO_THUMB_FOUND = "No Thumbnail detected!!"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     IFLONG_FILE_NAME = """Number of letters exceeded please reduce it"""
-    ABOUT_ME = "<b>Commands For Zee 5 video Downloading:- \n \nSend A Zee 5 Non DRM Video Link and reply the link with <code>/c2v</code>.</b>"""
+    ABOUT_ME = "Commands For Zee 5 video Downloading:- \n \nSend A Zee 5 Non DRM Video Link and reply the link with <code>/c2v</code>."""
     HELP_USER = """Check All Commands Here:"""
     RENAME_HELP = """Commands For Rename File: \n\n\n <code>/rename</code> : Reply To An File or video With <code>/rename Filename.extension</code> For Renaming the file."""
     C2V_HELP = """ Commands For File To Video: \n\n\n <code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
