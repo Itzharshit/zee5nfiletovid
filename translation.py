@@ -1,6 +1,5 @@
 class Translation(object):
-    START_TEXT = "<b>Hii {} ,I can rename & convert your file into video with zee 5 support.</b> \n
-"
+    START_TEXT = "<b>Hii {} ,I can rename & convert your file into video with zee 5 support.</b>"
 
     RENAME_403_ERR = "Something Went Wrong..!"
     BANNED_USER_TEXT = "Sorry!! But My Owner have Banned You From Using me. It Means You Can't Run Me Now! \n \n Contact : @AJPyroVerseGroup For more Details.. " 
