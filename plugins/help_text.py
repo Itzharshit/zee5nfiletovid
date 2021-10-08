@@ -165,7 +165,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('Zee 5, callback_data = "about")
+                    InlineKeyboardButton('Zee 5', callback_data = "about")
                 ]
             ]
         )
