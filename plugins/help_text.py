@@ -49,7 +49,7 @@ async def help_user(bot, update):
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**You have to Join My Update Channel Before Using Me..**",
+                text="**Please Join my Channel In order to use me.**",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join Channel", url=f"https://t.me/{update_channel}")]
               ])
@@ -66,8 +66,8 @@ async def help_user(bot, update):
                     InlineKeyboardButton('File To Video', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('About', callback_data = "about")
+                    InlineKeyboardButton('Thumbnail', callback_data = "cthumb"),
+                    InlineKeyboardButton('Zee 5', callback_data = "about")
                 ]
             ]
         )
@@ -88,9 +88,9 @@ async def start_me(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Please Join My Update Channel Before Using Me..**",
+                text="**Please Join My Channel In Order To Use Me**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -103,11 +103,8 @@ async def start_me(bot, update):
                 ],
                 [
                     InlineKeyboardButton('My Channel', url='https://t.me/AJPyroVerse'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/AJPyroVerseGroup')
+                    InlineKeyboardButton('Group', url='https://t.me/AJPyroVerseGroup')
                 ],
-                [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/AJPyroVerse'),
-                ]
             ]
         ),
         reply_to_message_id=update.message_id
@@ -125,7 +122,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('Back', callback_data = "ghelp"),
-                    InlineKeyboardButton("Close", callback_data = "close")
+                    InlineKeyboardButton("Shut Down", callback_data = "close")
                 ]
             ]
         )
