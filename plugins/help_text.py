@@ -102,8 +102,8 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('My Channel', url='https://t.me/AJPyroVerse'),
-                    InlineKeyboardButton('Group', url='https://t.me/AJPyroVerseGroup')
+                    InlineKeyboardButton('My Channel', url='https://t.me/{update_channel}'),
+                    InlineKeyboardButton('Group', url='https://t.me/{update_channel}')
                 ],
             ]
         ),
